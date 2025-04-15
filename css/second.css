@@ -1,0 +1,82 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Tabs Navigation */
+.nav {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    background: #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background: #d6d8db;
+    color: #000;
+}
+
+.nav-link.active {
+    background: #fff;
+    color: #000;
+    border-color: #ddd;
+    border-bottom: 2px solid #fff; /* Blend with tab content */
+}
+
+/* Tab Content */
+.tab-content {
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 0 0 8px 8px;
+    background: #fff;
+    margin-top: -2px; /* Align with active tab border */
+}
+
+.tab-pane {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
