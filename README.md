@@ -31,7 +31,7 @@ A responsive and visually appealing Coffee Store website layout built using **HT
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/coffee-store-website.git
+   git clone https://github.com/Hiral0722/coffee-store-website.git
    
 2. Navigate into the folder and open index.html in your browser.
 
