@@ -37,7 +37,7 @@ A responsive and visually appealing Coffee Store website layout built using **HT
 
 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/38c01b2d-b7a2-41fb-a38e-8eaade797fc6)
-![Alt Text](relative/path/to/image.png)
+
 
 📌 Future Enhancements
 Backend integration for form submissions
